@@ -2,11 +2,15 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <!-- Tipografias -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Nunito+Sans" rel="stylesheet"> 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+  <!-- <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/> -->
+  <link rel="stylesheet" href="./css/startup-materialize.min.css">
   <link type="text/css" rel="stylesheet" href="./css/estilos.css"  media="screen,projection"/>
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AXES</title>
@@ -14,77 +18,245 @@
 <body>
   <header id="header" class="">
     <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper container">
-          <a href="#!" class="brand-logo">Logo</a>
+      <nav class='grey darken-4'>
+        <div class="nav-wrapper">
+
+          <a href="#!" class="brand-logo left"><img src="./img/logo.png" class="responsive-img" alt=""></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="sass.html">Quienes somos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="https://www.facebook.com/axesconsultants/"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+            <li><a href="mailto:axesconsultoria@gmail.com"><i class="far fa-envelope fa-lg"></i></a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="sass.html">Quienes somos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
       </nav>
     </div>
-  </header><!-- /header -->
-  <div class="main container">
-    <section class="row cards">
-
-      <div class="card col s12 m4">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./img/sample1.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<a class="btn-floating halfway-fab waves-effect waves-light card-title activator red"><i class="material-icons">add</i></a></span>
-
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+  </header>
+  <div class="flip-out-intro header full-height">
+    <div class="fixed-wrapper">
+      <div class="background">
+        <img src="./img/general.jpg" alt="">
+      </div>
+      <div class="header-wrapper row valign-wrapper">
+        <div class="col s8 offset-s2 valign">
+          <h1>Startup!</h1>
+          <span class="tagline">Show off your business in a whole new way.</span>
+          <button class="read-more"><i class="icon-caret-down"></i></button>
         </div>
       </div>
-      <div class="card col s12 m4">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./img/sample1.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<a class="btn-floating halfway-fab waves-effect waves-light card-title activator red"><i class="material-icons">add</i></a></span>
-
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  <div class="flip-out-intro header full-height">
+    <div class="fixed-wrapper">
+      <div class="background">
+        <img src="./img/contenido.jpg" alt="">
+      </div>
+      <div class="header-wrapper row valign-wrapper">
+        <div class="col s8 offset-s2 valign">
+          <h1>Startup!</h1>
+          <span class="tagline">Show off your business in a whole new way.</span>
+          <button class="read-more"><i class="icon-caret-down"></i></button>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="flip-out-intro header full-height">
+    <div class="fixed-wrapper">
+      <div class="background">
+        <img src="./img/strategy.jpg" alt="">
+      </div>
+      <div class="header-wrapper row valign-wrapper">
+        <div class="col s8 offset-s2 valign">
+          <h1>Startup!</h1>
+          <span class="tagline">Show off your business in a whole new way.</span>
+          <button class="read-more"><i class="icon-caret-down"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flip-out-intro header full-height">
+    <div class="fixed-wrapper">
+      <div class="background">
+        <img src="./img/creatividad.jpg" alt="">
+      </div>
+      <div class="header-wrapper row valign-wrapper">
+        <div class="col s8 offset-s2 valign">
+          <h1>Startup!</h1>
+          <span class="tagline">Show off your business in a whole new way.</span>
+          <button class="read-more"><i class="icon-caret-down"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <section class="row cards valign-wrapper" id="servicios">
+      <div class="col s12">
+       <!-- Servicios -->
+       <div class="card">
+        <div class="card lighten-2">
+          <h3 class='col section-title s12 center'>Servicios</h3>
+        </div>
+      </div>
+      <!-- Produccion de Contenidos -->
       <div class="card col s12 m4">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./img/sample1.png">
+          <img class="activator" src="./img/content.png">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<a class="btn-floating halfway-fab waves-effect waves-light card-title activator red"><i class="material-icons">add</i></a></span>
+          <span class="card-title activator grey-text text-darken-4 center">Produccion de Contenidos<a class="btn-floating halfway-fab waves-effect waves-light card-title activator green accent-3"><i class="material-icons">add</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4 center">Produccion de Contenidos<i class="material-icons right">close</i></span>
+          <ul>
+            <li>Social Media</li>
+            <li>Curaduria de Contenidos</li>
+            <li>Produccion Audiovisual</li>
+            <li>Marketing de Contenidos</li>
+            <li>Edicion</li>
+            <li>Revistas Corporativas</li>
+            <li>Blogs</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Estrategia -->
+      <div class="card col s12 m4">
+        <div class="card-image waves-effect waves-block waves-light ">
+          <img class="activator" src="./img/estrategia.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4 center">Estrategia<a class="btn-floating halfway-fab waves-effect waves-light card-title activator green accent-3"><i class="material-icons">add</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4 center">Estrategia<i class="material-icons right">close</i></span>
+          <ul>
+            <li>Estrategias Digitales</li>
+            <li>Posicionamiento SEO y SEM</li>
+            <li>Estrategias de canales digitales (SMO, Influencers, blogs, landings, etc.)</li>
+            <li>Definición de línea editorial</li>
+            <li>Consultoría de contenidos.</li>
+            <li>Definición de KPI’s</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Creatividad -->
+      <div class="card col s12 m4">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./img/creativity.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4 center">Creatividad<a class="btn-floating halfway-fab waves-effect waves-light card-title activator green accent-3"><i class="material-icons">add</i></a></span>
 
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <span class="card-title grey-text text-darken-4 center">Creatividad<i class="material-icons right">close</i></span>
+          <ul>
+            <li>Diseño Gráfico</li>
+            <li>Diseño Editorial</li>
+            <li>Contenido Audiovisual</li>
+            <li>Fotografía</li>
+            <li>Animación</li>
+          </ul>
         </div>
       </div>
     </section>
-    </div>
-    <footer>
+    <section class="row blue-grey lighten-5" id='clientes'>
 
-    </footer>
-    <!--  Scripts-->
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="./js/materialize.min.js"></script>
-    <script type="text/javascript" src="./js/custom.js"></script>
-  </body>
-  </html>
+      <h3 class='col section-title s12 center'>Clientes</h3>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2016/05/08061750/heineken-logo-140.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="./img/zonafut.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2016/05/08061750/heineken-logo-140.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2016/05/08061750/heineken-logo-140.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2016/05/08061750/heineken-logo-140.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+      <div class="col s6 m2">
+        <img width="140" height="33" src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2016/05/08061750/heineken-logo-140.png" class="attachment-responsive-img center size-responsive-img center" alt="heineken-logo-140">
+      </div>
+    </section>
+    <section class="row">
+      <h3 class='col section-title s12 center'>Portafolio</h3>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_mic.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_drone.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_sound.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_phone.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_mic.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_drone.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_sound.jpg" class="responsive-img" alt="">
+      </div>
+      <div class="col s3">
+        <img src="https://www.w3schools.com/w3images/tech_phone.jpg" class="responsive-img" alt="">
+      </div>
+    </section>
+    <section class="row blue-grey lighten-5" id='contacto'>
+      <h3 class="section-title center">Contactanos</h3>
+      <div class="container">
+        <form class="">
+         <div class="input-field col s6">
+          <input id="first_name" type="text">
+          <label for="first_name">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text">
+          <label for="last_name">Apellido</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">Mensaje</label>
+          <a class="waves-effect waves-light btn-large">Enviar</a>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+<footer>
+
+</footer>
+<!--  Scripts-->
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/materialize.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!-- External libraries -->
+<script src="./js/imagesloaded.pkgd.min.js"></script>
+<script src="./js/masonry.pkgd.min.js"></script>
+<script src="./js/TweenMax.min.js"></script>
+<script src="./js/ScrollMagic.min.js"></script>
+<script src="./js/animation.gsap.min.js"></script>
+
+<!-- Initialization script -->
+<script src="./js/startup.js"></script>
+<script src="./js/init.js"></script>
+<script type="text/javascript" src="./js/custom.js"></script>
+</body>
+</html>
