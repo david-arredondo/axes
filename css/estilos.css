@@ -3,34 +3,16 @@ html,input{
 }
 body{
 	background-color: #fff;
-	color:#212121;
+	color:#000;
 }
 
-.logo{
-	color:#212121;
-}
-.mkt{
-	font-size: 1em;
-	color:#DE9B01;
-	 font-family: 'Gochi Hand', cursive;
-	}
-
-input[type=text]+label,textarea.materialize-textarea+label,.tagline,.valign h3,input[type=text]{
-	color:#212121 !important;
-	border-color: #212121 !important;
+input[type=text]+label,textarea.materialize-textarea+label,.valign h3{
+	color:#9e9e9e;
 }
 
-.tachado{
-	text-decoration: line-through;
-	font-style: italic;
-}
-
-.strong{
-	font-weight: bold;
-}
 
 textarea.materialize-textarea{
-	border-color:#212121 !important;
+	border-color:#9e9e9e;
 }
 .card-image.waves-effect.waves-block.waves-light{
 width: 100%;
@@ -44,11 +26,6 @@ margin:0 auto;
 a.brand-logo img {
     height: 64px;
     padding: 10px;
-}
-nav .brand-logo{
-	margin-left:15px;
-	font-family: 'Raleway', sans-serif;
-	color:#212121;
 }
 
 section{
